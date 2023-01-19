@@ -1,5 +1,8 @@
+import time
+
 from helper_functions import get_todos, write_todos
 
+print(f"It is {time.strftime('%b %d, %Y - %H:%M:%S')}")
 
 while True:
     user_action = input("Select add, show, edit, completed or exit: ")
